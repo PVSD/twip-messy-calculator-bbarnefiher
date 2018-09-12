@@ -21,13 +21,13 @@ public class Main {
         if (userMethod.equals("add")){
             grammarMethod = "sum";
         }
-        else if (userMethod == subtract){
+        else if (userMethod == "subtract"){
             grammarMethod = "difference";
         }
-        else if (userMethod == multiply){
+        else if (userMethod == "multiply"){
             grammarMethod = "product";
         }
-        else if (userMethod == divide){
+        else if (userMethod == "divide"){
             grammarMethod = "divident";
         }
         else {
